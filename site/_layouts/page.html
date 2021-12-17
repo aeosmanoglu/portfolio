@@ -2,6 +2,14 @@
 layout: default
 ---
 
+{% if page.isAbout %}
+<div class="row">
+    <div class="mx-auto col-6 col-md-3">
+        <img src="/assets/images/avataaars.png" class="avatar rounded-circle" alt="Avatar">
+    </div>
+</div>
+{% endif %}
+
 <div class="row">
     <div class="col-12 col-md-8 mx-auto">
         {{content}}

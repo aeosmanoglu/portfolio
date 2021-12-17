@@ -39,35 +39,42 @@ $spacers: (
 
 // 6. Add additional custom code here
 :root{
-    --bs-font-monospace: 'JetBrains Mono', monospace;
-    --bs-body-font-family: var(--bs-font-monospace);
+  --bs-font-monospace: 'JetBrains Mono', monospace;
+  --bs-body-font-family: var(--bs-font-monospace);
 }
 
 pre{
-    padding: $spacer;
-    line-height: 1.45;
-    background-color: var(--bs-gray-100);
-    border: 1px solid var(--bs-gray-600);
+  padding: $spacer;
+  line-height: 1.45;
+  background-color: var(--bs-gray-100);
+  border: 1px solid var(--bs-gray-600);
 }
 
 img {
   -webkit-filter: grayscale(100%); 
-    filter: grayscale(100%);
+  filter: grayscale(100%);
   transition: 1s;
 }
 
 img:hover {
-  -webkit-filter: grayscale(0%); 
-    filter: grayscale(0%);
+  -webkit-filter: none; 
+  filter: none;
 }
 
 .card-img-overlay {
-    top:revert;
-    right:auto;
-    left:auto;
+  top:revert;
+  right:auto;
+  left:auto;
 }
 
 .nav-link .bi {
   font-size: $spacer * 2;
+}
+
+.avatar{
+  -webkit-filter: none !important;
+  filter: none !important;
+  width: 100%;
+  border: $spacer * .5 solid;
 }
 

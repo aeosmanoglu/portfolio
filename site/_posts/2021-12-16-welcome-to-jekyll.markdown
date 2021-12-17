@@ -1,7 +1,8 @@
 ---
 layout: page
 title:  "Welcome to Jekyll!"
-subtitle: "UI/UX, Web"
+uptitle: "UI/UX, Web"
+subtitle: "1 week - 2010"
 img: "sample.jpg"
 alt: "Beautiful logo"
 ---
