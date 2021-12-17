@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% if page.isAbout %}
-<div class="row">
+<div class="row mb-5">
     <div class="mx-auto col-6 col-md-3">
         <img src="/assets/images/avataaars.png" class="avatar rounded-circle" alt="Avatar">
     </div>
@@ -11,7 +11,22 @@ layout: default
 {% endif %}
 
 <div class="row">
-    <div class="col-12 col-md-8 mx-auto">
+    <div class="col-12 col-md-6 mx-auto mb-5">
         {{content}}
     </div>
 </div>
+
+{% if page.isAbout %}
+<div class="container">
+    <p class="h5 text-center mb-4">Some of the technologies Abuzer uses;</p>
+    <div class="row g-3 mb-5">
+        {% for logo in site.data.logos %}
+
+        <div class="col-2 col-md-1 d-flex justify-content-center">
+            <img src="/assets/images/logos/{{logo.file}}" alt="{{logo.name}}" class="img-fluid">
+        </div>
+
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

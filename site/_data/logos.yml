@@ -1,0 +1,62 @@
+- name: Flutter
+  file: flutter.svg
+
+- name: Swift
+  file: swift.svg
+
+- name: Kotlin
+  file: kotlin.svg
+
+- name: Dart
+  file: dart.svg
+
+- name: HTML5
+  file: html.svg
+
+- name: CSS3
+  file: css.svg
+
+- name: Sass
+  file: sass.svg
+
+- name: Bootstrap
+  file: bootstrap.svg
+
+- name: Tailwind
+  file: tailwind.svg
+
+- name: Javascript
+  file: js.svg
+
+- name: NodeJS
+  file: node.svg
+
+- name: Express
+  file: express.svg
+
+- name: NextJS
+  file: next.svg
+
+- name: Jekyll
+  file: jekyll.svg
+
+- name: MongoDB
+  file: mongo.svg
+
+- name: Wordpress
+  file: wordpress.svg
+
+- name: PHP
+  file: php.svg
+
+- name: Figma
+  file: figma.svg
+
+- name: AdobeXD
+  file: xd.svg
+
+- name: Illustrator
+  file: illustrator.svg
+
+- name: Affinity Design
+  file: affinity.svg
