@@ -61,14 +61,14 @@ img:hover {
   filter: none;
 }
 
+img.logo {
+  height: $spacer * 2;
+}
+
 .card-img-overlay {
   top:revert;
   right:auto;
   left:auto;
-}
-
-.nav-link .bi {
-  font-size: $spacer * 2;
 }
 
 .avatar{
@@ -77,4 +77,3 @@ img:hover {
   width: 100%;
   border: $spacer * .5 solid;
 }
-
