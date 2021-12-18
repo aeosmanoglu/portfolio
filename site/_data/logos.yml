@@ -49,6 +49,9 @@
 - name: PHP
   file: php.svg
 
+- name: Docker
+  file: docker.svg
+
 - name: Figma
   file: figma.svg
 
