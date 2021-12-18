@@ -19,13 +19,11 @@ layout: default
 {% if page.isAbout %}
 <div class="container">
     <p class="h5 text-center mb-4">Some of the technologies Abuzer uses;</p>
-    <div class="row g-3 mb-5">
+    <div class="row g-5 mb-5">
         {% for logo in site.data.logos %}
-
-        <div class="col-2 col-md-1 d-flex justify-content-center">
+        <div class="col-3 col-md-2 col-xl-1 d-flex justify-content-center">
             <img src="/assets/images/logos/{{logo.file}}" alt="{{logo.name}}" class="img-fluid">
         </div>
-
         {% endfor %}
     </div>
 </div>
