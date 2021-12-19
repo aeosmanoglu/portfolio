@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  "Two Factor Authentication"
+title: "Two Factor Authentication"
 uptitle: "UI/UX, Web, Mobile"
 subtitle: "2 Weeks - 2021"
-img: "/2fa/logo.png"
+img: "/2fa/logo.webp"
 alt: "Two Factor Authentication Logo"
 ---
 
@@ -18,7 +18,7 @@ A `NodeJs/Express` web application generates a secret and displays it to the use
 1. Users' data is encrypted with AES-256 and saved in `MongoDB`.
 1. `Docker` is used to deploy the app.
 
-[<i class="bi bi-github"></i>](https://github.com/aeosmanoglu/ikiadimApp){:target="_blank"}{:aria-label="Source Code"}{:class="link-dark h5"}
+[<i class="bi bi-github"></i>](https://github.com/aeosmanoglu/ikiadimApp){:target="\_blank"}{:aria-label="Source Code"}{:class="link-dark h5"}
 
 ---
 
@@ -30,4 +30,4 @@ A `Flutter` mobile application that captures the secret from the QR code with th
 1. You cannot run the app in Rooted or Jailbreaked devices for security reasons.
 1. No cloud storage or internet connection is required.
 
-[<i class="bi bi-github"></i>](https://github.com/aeosmanoglu/ikiadim){:target="_blank"}{:aria-label="Source Code"}{:class="link-dark h5"}
+[<i class="bi bi-github"></i>](https://github.com/aeosmanoglu/ikiadim){:target="\_blank"}{:aria-label="Source Code"}{:class="link-dark h5"}
