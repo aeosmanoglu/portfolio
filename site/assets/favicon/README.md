@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+# Your Favicon Package
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="{{site.author}}">
-    <meta name="description" content="{{site.description}}">
+This package was generated with [RealFaviconGenerator](https://realfavicongenerator.net/) [v0.16](https://realfavicongenerator.net/change_log#v0.16)
+
+## Install instructions
+
+To install this package:
+
+Extract this package in <code>&lt;web site&gt;/assets/favicon/</code>. If your site is <code>http://www.example.com</code>, you should be able to access a file named <code>http://www.example.com/assets/favicon/favicon.ico</code>.
+
+Insert the following code in the `head` section of your pages:
+
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="194x194" href="/assets/favicon/favicon-194x194.png">
@@ -19,22 +22,5 @@
     <meta name="msapplication-TileImage" content="/assets/favicon/mstile-144x144.png">
     <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
-    <title>{{site.title}}</title>
-</head>
 
-<body>
-    <nav>{% include header.html %}</nav>
-
-    <main class="container mt-6 mb-5">
-        <p class="text-center mb-0 text-muted">{{page.uptitle}}</p>
-        <h1 class="text-center mb-0 display-1">{{page.title}}</h1>
-        <p class="text-center mb-5 text-muted">{{page.subtitle}}</p>
-        {{content}}
-    </main>
-
-    <footer>{% include footer.html %}</footer>
-
-</body>
-
-</html>
+*Optional* - Check your favicon with the [favicon checker](https://realfavicongenerator.net/favicon_checker)
