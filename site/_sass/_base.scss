@@ -85,3 +85,19 @@ img.logo {
 .article {
   max-inline-size: 66ch;
 }
+
+.article img {
+  max-width: 100%;
+  height: auto;
+}
+
+blockquote {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: $spacer*2;
+  font-style: italic;
+  max-inline-size: 33ch;
+  color: var(--bs-gray-600);
+  font-size: .875rem;
+}

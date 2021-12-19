@@ -7,4 +7,27 @@ img: "/2fa/logo.png"
 alt: "Two Factor Authentication Logo"
 ---
 
-**Problem:** 
+> Two Factor Authentication is a new security feature that allows you to add extra security to your account.
+
+> TODO: Add some screenshots
+
+A `NodeJs/Express` web application generates a secret and displays it to the user with a QR code on the screen. Verifies the digits of the users with an endpoint.
+
+1. App user interfaces developed with customized `Bootstrap 5` that with `Sass`.
+1. Users log in to the app with active directory credentials over LDAP.
+1. Users' data is encrypted with AES-256 and saved in `MongoDB`.
+1. `Docker` is used to deploy the app.
+
+[<i class="bi bi-github"></i>](https://github.com/aeosmanoglu/ikiadimApp){:target="_blank"}{:aria-label="Source Code"}{:class="link-dark h5"}
+
+---
+
+> TODO: Add some screenshots
+
+A `Flutter` mobile application that captures the secret from the QR code with the device camera produces time or hash-based one-time password digits. Acts like Google or Microsoft authenticator app.
+
+1. Stores all secrets in a local encrypted database. Database key stores in the device's KeyChain or KeyStore.
+1. You cannot run the app in Rooted or Jailbreaked devices for security reasons.
+1. No cloud storage or internet connection is required.
+
+[<i class="bi bi-github"></i>](https://github.com/aeosmanoglu/ikiadim){:target="_blank"}{:aria-label="Source Code"}{:class="link-dark h5"}
