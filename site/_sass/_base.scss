@@ -38,12 +38,12 @@ $spacers: (
 @import "../node_modules/bootstrap/scss/utilities/api";
 
 // 6. Add additional custom code here
-:root{
+:root {
   --bs-font-monospace: 'JetBrains Mono', monospace;
   --bs-body-font-family: var(--bs-font-monospace);
 }
 
-pre{
+pre {
   padding: $spacer;
   line-height: 1.45;
   background-color: var(--bs-gray-100);
@@ -71,7 +71,7 @@ img.logo {
   left:auto;
 }
 
-.avatar{
+.avatar {
   -webkit-filter: none !important;
   filter: none !important;
   width: 100%;
