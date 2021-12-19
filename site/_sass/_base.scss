@@ -61,7 +61,7 @@ img:hover {
   filter: none;
 }
 
-img.logo {
+.logo {
   height: $spacer * 2;
 }
 
@@ -100,4 +100,11 @@ blockquote {
   max-inline-size: 33ch;
   color: var(--bs-gray-600);
   font-size: .875rem;
+}
+
+.nav-link {
+  min-width: $spacer * 3;
+  min-height: $spacer * 3;
+  line-height: $spacer * 2;
+  text-align: center;
 }
