@@ -13,4 +13,4 @@ alt: "PassWall Logo"
 
 A `Flutter` mobile application that is used to securely store and share passwords. Biometric authentication is used to unlock the application.
 
-[<i class="bi bi-github"></i>](https://github.com/aeosmanoglu/ikiadim){:target="\_blank"}{:aria-label="Source Code"}{:class="link-dark h5"}
+[<i class="bi bi-github"></i>](https://github.com/aeosmanoglu/passwall-mobile){:target="\_blank"}{:aria-label="Source Code"}{:class="link-dark h5"}

@@ -8,5 +8,8 @@
         }
     },
     "remoteUser": "vscode",
-    "extensions": ["github.copilot", "zignd.html-css-class-completion"]
+    "extensions": [
+        "github.copilot",
+        "zignd.html-css-class-completion"
+    ]
 }
