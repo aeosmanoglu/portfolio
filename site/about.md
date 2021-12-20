@@ -1,9 +1,7 @@
 ---
-layout: page
-title: ABUZER EMRE OSMANOGLU
-permalink: /about.html
-addClass: "active"
+layout: about
 uptitle: "Hello. I'm"
+title: ABUZER EMRE OSMANOGLU
 subtitle: UI/UX, Web Front-End and Mobile Dev.
 isAbout: true
 ---

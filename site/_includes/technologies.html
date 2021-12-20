@@ -1,0 +1,10 @@
+<div class="container my-5">
+    <p class="h5 text-center mb-5">Some of the technologies Abuzer uses;</p>
+    <div class="row g-5">
+        {% for technology in site.data.technologies %}
+        <div class="col-3 col-md-2 col-xl-1 d-flex justify-content-center">
+            <img src="/assets/images/logos/{{technology.file}}" alt="{{technology.name}}" class="img-fluid grayscale">
+        </div>
+        {% endfor %}
+    </div>
+</div>

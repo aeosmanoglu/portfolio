@@ -24,17 +24,9 @@
 </head>
 
 <body>
-    <nav>{% include header.html %}</nav>
+    {{content}}
 
-    <main class="container mt-6 mb-5">
-        <p class="text-center mb-0 text-muted">{{page.uptitle}}</p>
-        <h1 class="text-center mb-0 display-1">{{page.title}}</h1>
-        <p class="text-center mb-5 text-muted">{{page.subtitle}}</p>
-        {{content}}
-    </main>
-
-    <footer>{% include footer.html %}</footer>
-
+    {% include footer.html %}
 </body>
 
 </html>
