@@ -1,0 +1,14 @@
+<div class="container my-5">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        {% for image in page.images %}
+        <div class="col">
+            <figure class="figure">
+                <a href="{{ image.path }}">
+                    <img class="img-fluid img-thumbnail figure-img" src="{{ image.path }}" alt="{{ image.title }}">
+                </a>
+                <figcaption class="figure-caption text-center">{{ image.title }}</figcaption>
+            </figure>
+        </div>
+        {% endfor %}
+    </div>
+</div>

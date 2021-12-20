@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Two Factor Authentication"
 uptitle: "UI/UX, Web, Mobile"
 subtitle: "2 Weeks - 2021"
@@ -9,7 +9,6 @@ alt: "Two Factor Authentication Logo"
 
 > Two Factor Authentication is a new security feature that allows you to add extra security to your account.
 
-> TODO: Add some screenshots
 
 A `NodeJs/Express` web application generates a secret and displays it to the user with a QR code on the screen. Verifies the digits of the users with an endpoint.
 
@@ -18,11 +17,10 @@ A `NodeJs/Express` web application generates a secret and displays it to the use
 1. Users' data is encrypted with AES-256 and saved in `MongoDB`.
 1. `Docker` is used to deploy the app.
 
-[<i class="bi bi-github"></i>](https://github.com/aeosmanoglu/ikiadimApp){:target="\_blank"}{:aria-label="Source Code"}{:class="link-dark h5"}
+{% include github.html link="https://github.com/aeosmanoglu/ikiadimApp"%}
 
 ---
 
-> TODO: Add some screenshots
 
 A `Flutter` mobile application that captures the secret from the QR code with the device camera produces time or hash-based one-time password digits. Acts like Google or Microsoft authenticator app.
 
@@ -30,4 +28,4 @@ A `Flutter` mobile application that captures the secret from the QR code with th
 1. You cannot run the app in Rooted or Jailbreaked devices for security reasons.
 1. No cloud storage or internet connection is required.
 
-[<i class="bi bi-github"></i>](https://github.com/aeosmanoglu/ikiadim){:target="\_blank"}{:aria-label="Source Code"}{:class="link-dark h5"}
+{% include github.html link="https://github.com/aeosmanoglu/ikiadim"%}

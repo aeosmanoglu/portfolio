@@ -1,0 +1,20 @@
+<div class="container mb-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        {% for post in site.posts %}
+        <div class="col">
+            <a href="{{post.url}}">
+                <div class="card text-light">
+                    <img src="/assets/images/{{post.folder}}/logo.webp" class="card-img-top grayscale"
+                        alt="{{post.alt}}">
+                    <div class="card-img-overlay bg-dark">
+                        <p class="h6 card-title mb-0">{{post.title}}</p>
+                        <p class="card-text text-gray small">
+                            {{post.uptitle}}
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>

@@ -1,11 +1,17 @@
-<div class="navbar navbar-expand navbar-dark bg-dark fixed-bottom">
+<nav class="navbar navbar-expand navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand" href="/">
             <img src="/assets/images/logo.svg" alt="Logo" class="logo">
         </a>
 
         <div class="navbar-nav">
-            <a class="nav-link {{page.addClass}}" href="/about.html">About</a>
+
+            {%if page.isAbout %}
+            <a class="nav-link active" href="/about.html">About</a>
+            {%else%}
+            <a class="nav-link" href="/about.html">About</a>
+            {%endif%}
+
             <a class="nav-link" href="https://github.com/aeosmanoglu" target="blank"
                 aria-label="Abuzer's Github profile">
                 <i class="bi bi-github"></i>
@@ -17,4 +23,4 @@
         </div>
 
     </div>
-</div>
+</nav>
