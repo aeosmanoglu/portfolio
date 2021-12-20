@@ -1,9 +1,9 @@
-title: Abuzer Emre - Portfolio
+title: Abuzer Emre's portfolio
 author: Abuzer Emre OSMANOGLU
-description: Abuzer Emre Osmanoğlu's portfolio and information about himself.
+description: Abuzer E. Osmanoğlu is a freelance developer specializing in user interface/experience and frontend of web and mobile applications.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
+url: "" # the base URL of your site, e.g. http://example.com
+twitter: "@abuzeremreo"
 # Build settings
 sass:
     style: compressed
