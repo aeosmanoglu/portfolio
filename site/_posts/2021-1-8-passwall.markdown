@@ -3,7 +3,7 @@ layout: page
 title: "PassWall"
 uptitle: "Mobile"
 subtitle: "2 Days - 2021"
-img: "/passwall/logo.webp"
+folder: "passwall"
 alt: "PassWall Logo"
 ---
 
