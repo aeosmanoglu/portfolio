@@ -5,7 +5,7 @@ uptitle: "Mobile"
 subtitle: "2 Days - 2021"
 folder: "passwall"
 alt: "PassWall Logo"
-images:
+images_mobile:
   - path: /assets/images/passwall/album/login.png
     title: Login Screen
   - path: /assets/images/passwall/album/main.png
