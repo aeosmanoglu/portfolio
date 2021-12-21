@@ -1,6 +1,6 @@
 <div class="container my-5">
-    <div class="row row-cols-1 row-cols-md-4 g-4">
-        {% for image in page.images %}
+    <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center">
+        {% for image in include.images %}
         <div class="col">
             <figure class="figure">
                 <a href="{{ image.path }}">
