@@ -2,6 +2,7 @@
 layout: default
 uptitle: Here Is My
 title: Portfolio
+isPortfolio: true
 ---
 
 {% include nav.html %}

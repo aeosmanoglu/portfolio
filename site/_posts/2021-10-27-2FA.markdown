@@ -1,10 +1,26 @@
 ---
 layout: post
 title: "Two Factor Authentication"
-uptitle: "UI/UX, Web, Mobile"
+uptitle: "Full Stack and Mobile"
 subtitle: "2 Weeks - 2021"
 folder: "2fa"
 alt: "Two Factor Authentication Logo"
+images:
+  - path: /assets/images/2fa/album/login.png
+    title: Login Screen
+  - path: /assets/images/2fa/album/main.png
+    title: Main Screen
+  - path: /assets/images/2fa/album/qrcode.png
+    title: QR Code Screen
+images_mobile:
+  - path: /assets/images/2fa/album/splashscreen.png
+    title: Splash Screen
+  - path: /assets/images/2fa/album/main1.png
+    title: Main Screen
+  - path: /assets/images/2fa/album/main2.png
+    title: Main Screen
+  - path: /assets/images/2fa/album/main3.png
+    title: Main Dark Screen
 ---
 
 > Two Factor Authentication is a new security feature that allows you to add extra security to your account.
