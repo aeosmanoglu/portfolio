@@ -6,25 +6,45 @@ subtitle: "2 Days - 2021"
 folder: "passwall"
 alt: "PassWall Logo"
 images_mobile:
-  - path: /assets/images/passwall/album/login.png
+  - path:
+      default: /assets/images/passwall/album/login.png
+      webp: /assets/images/passwall/album/login.webp
     title: Login Screen
-  - path: /assets/images/passwall/album/main.png
+  - path: 
+      default: /assets/images/passwall/album/main.png
+      webp: /assets/images/passwall/album/main.webp
     title: Main Screen
-  - path: /assets/images/passwall/album/detail.png
+  - path: 
+      default: /assets/images/passwall/album/detail.png
+      webp: /assets/images/passwall/album/detail.webp
     title: Detail Screen
-  - path: /assets/images/passwall/album/about.png
+  - path:
+      default: /assets/images/passwall/album/about.png
+      webp: /assets/images/passwall/album/about.webp
     title: About Screen
-  - path: /assets/images/passwall/album/mainAction.png
+  - path: 
+      default: /assets/images/passwall/album/mainAction.png
+      webp: /assets/images/passwall/album/mainAction.webp
     title: Main Action
-  - path: /assets/images/passwall/album/tileAction.png
+  - path: 
+      default: /assets/images/passwall/album/tileAction.png
+      webp: /assets/images/passwall/album/tileAction.webp
     title: Tile Action
-  - path: /assets/images/passwall/album/createNew.png
+  - path: 
+      default: /assets/images/passwall/album/createNew.png
+      webp: /assets/images/passwall/album/createNew.webp
     title: Create New
-  - path: /assets/images/passwall/album/export.png
+  - path: 
+      default: /assets/images/passwall/album/export.png
+      webp: /assets/images/passwall/album/export.webp
     title: Export
-  - path: /assets/images/passwall/album/import.png
+  - path: 
+      default: /assets/images/passwall/album/import.png
+      webp: /assets/images/passwall/album/import.webp
     title: Import
-  - path: /assets/images/passwall/album/share.png
+  - path: 
+      default: /assets/images/passwall/album/share.png
+      webp: /assets/images/passwall/album/share.webp
     title: Share Screen
 ---
 

@@ -6,20 +6,34 @@ subtitle: "2 Weeks - 2021"
 folder: "2fa"
 alt: "Two Factor Authentication Logo"
 images:
-  - path: /assets/images/2fa/album/login.png
+  - path: 
+      default: /assets/images/2fa/album/login.png
+      webp: /assets/images/2fa/album/login.webp
     title: Login Screen
-  - path: /assets/images/2fa/album/main.png
+  - path: 
+      default: /assets/images/2fa/album/main.png
+      webp: /assets/images/2fa/album/main.webp
     title: Main Screen
-  - path: /assets/images/2fa/album/qrcode.png
+  - path: 
+      default: /assets/images/2fa/album/qrcode.png
+      webp: /assets/images/2fa/album/qrcode.webp
     title: QR Code Screen
 images_mobile:
-  - path: /assets/images/2fa/album/splashscreen.png
+  - path: 
+      default: /assets/images/2fa/album/splashscreen.png
+      webp: /assets/images/2fa/album/splashscreen.webp
     title: Splash Screen
-  - path: /assets/images/2fa/album/main1.png
+  - path: 
+      default: /assets/images/2fa/album/main1.png
+      webp: /assets/images/2fa/album/main1.webp
     title: Main Screen
-  - path: /assets/images/2fa/album/main2.png
+  - path: 
+      default: /assets/images/2fa/album/main2.png
+      webp: /assets/images/2fa/album/main2.webp
     title: Main Screen
-  - path: /assets/images/2fa/album/main3.png
+  - path: 
+      default: /assets/images/2fa/album/main3.png
+      webp: /assets/images/2fa/album/main3.webp
     title: Main Dark Screen
 ---
 
