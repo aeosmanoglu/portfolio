@@ -3,8 +3,12 @@
         {% for image in include.images %}
         <div class="col">
             <figure class="figure">
-                <a href="{{ image.path }}">
-                    <img class="img-fluid img-thumbnail figure-img" src="{{ image.path }}" alt="{{ image.title }}">
+                <a href="{{ image.path.default }}">
+                    <picture>
+                        <source type="image/webp" srcset="{{ image.path.webp }}">
+                        <img class="img-fluid img-thumbnail figure-img" src="{{ image.path.default }}"
+                            alt="{{ image.title }}">
+                    </picture>
                 </a>
                 <figcaption class="figure-caption text-center">{{ image.title }}</figcaption>
             </figure>
