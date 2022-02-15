@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Workshop"
+uptitle: "Frontend"
+subtitle: "3 Days - 2022"
+folder: "workshop"
+alt: "Workshop Logo"
+images:
+  - path:
+      default: /assets/images/workshop/album/main.png
+      webp: /assets/images/workshop/album/main.webp
+    title: Main Screen
+  - path:
+      default: /assets/images/workshop/album/schedule.png
+      webp: /assets/images/workshop/album/schedule.webp
+    title: Schedule
+  - path:
+      default: /assets/images/workshop/album/speakers.png
+      webp: /assets/images/workshop/album/speakers.webp
+    title: Speakers
+  - path:
+      default: /assets/images/workshop/album/acceptedPapers.png
+      webp: /assets/images/workshop/album/acceptedPapers.webp
+    title: Accepted Papers
+  - path:
+      default: /assets/images/workshop/album/call4papers.png
+      webp: /assets/images/workshop/album/call4papers.webp
+    title: Call for Papers
+  - path:
+      default: /assets/images/workshop/album/organizers.png
+      webp: /assets/images/workshop/album/organizers.webp
+    title: Dates, Organizers
+  - path:
+      default: /assets/images/workshop/album/history.png
+      webp: /assets/images/workshop/album/history.webp
+    title: History, Footer
+---
+
+...is an `Jekyll` CMS. User interfaces developed with `Bootstrap 5`. Serving on [Github Pages](https://defianalytics.github.io/defraudworkshop/).
+
+{% include github.html link="https://github.com/defianalytics/defraudworkshop" %}
