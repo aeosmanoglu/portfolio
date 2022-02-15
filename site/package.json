@@ -3,7 +3,7 @@
     "bootstrap": "^5.1.3"
   },
   "scripts": {
-    "dev": "bundle install && bundle exec jekyll serve",
+    "dev": "bundle install && bundle exec jekyll serve -l",
     "prod": "bundle install && jekyll build"
   }
 }
